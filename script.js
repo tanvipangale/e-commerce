@@ -132,17 +132,17 @@ function handleLogin() {
     }
 
     if (!isValid) {
-        alert("⚠️ Please fill all details properly");
+        alert("Please fill all details properly");
         return;
     }
 
-    alert("Login successful 🚀");
+    alert("Login successful");
 }
 
 
 // FINAL SUBMIT
 function submitData() {
-    alert("Form submitted successfully ✅");
+    alert("Form submitted successfully");
 }
 
 
@@ -210,7 +210,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (validateStep2()) {
             nextStep(3);
         } else {
-            alert("⚠️ Please fill all details properly");
+            alert("Please fill all details properly");
         }
     });
 
@@ -222,7 +222,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (validateStep3()) {
             submitData();
         } else {
-            alert("⚠️ Please fill all details properly");
+            alert("Please fill all details properly");
         }
     });
 
