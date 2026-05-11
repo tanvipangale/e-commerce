@@ -23,3 +23,7 @@ Step 1: Choose between "Individual" or "Business" account types with interactive
 Step 2: Enter personal profile details with built-in error handling for empty or invalid fields.
 
 Step 3: Secure bank verification where a success indicator appears once a valid 11-digit BVN is provided.
+
+Tutorial
+Figma to HTML/CSS/JavaScript conversion tutorial:
+https://www.dropbox.com/scl/fi/j0mcncol4pggmg3arcw67/registration-window-tut.mp4?rlkey=jh1jmk2yh1vosmxf3pikxz7fk&st=rwc50sin&dl=0
