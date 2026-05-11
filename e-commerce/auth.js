@@ -32,7 +32,7 @@ document.getElementById("registerBtn").addEventListener("click", function () {
     const email = document.getElementById("email").value;
     const password = document.getElementById("password").value;
 
-    fetch("http://localhost/wordpress/wp-json/custom/v1/register", {
+    fetch("http://localhost/e-commerce/wp-json/custom/v1/register", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
